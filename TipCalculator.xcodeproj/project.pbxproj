@@ -12,6 +12,7 @@
 		A310EF9B1BB6502F00ACA7F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A310EF991BB6502F00ACA7F2 /* Main.storyboard */; };
 		A310EF9D1BB6502F00ACA7F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A310EF9C1BB6502F00ACA7F2 /* Assets.xcassets */; };
 		A310EFA01BB6502F00ACA7F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A310EF9E1BB6502F00ACA7F2 /* LaunchScreen.storyboard */; };
+		A310EFA81BB650F500ACA7F2 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A310EFA71BB650F500ACA7F2 /* TipCalculatorModel.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A310EF9C1BB6502F00ACA7F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A310EF9F1BB6502F00ACA7F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A310EFA11BB6502F00ACA7F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A310EFA71BB650F500ACA7F2 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				A310EF951BB6502F00ACA7F2 /* AppDelegate.swift */,
+				A310EFA71BB650F500ACA7F2 /* TipCalculatorModel.swift */,
 				A310EF971BB6502F00ACA7F2 /* ViewController.swift */,
 				A310EF991BB6502F00ACA7F2 /* Main.storyboard */,
 				A310EF9C1BB6502F00ACA7F2 /* Assets.xcassets */,
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A310EFA81BB650F500ACA7F2 /* TipCalculatorModel.swift in Sources */,
 				A310EF981BB6502F00ACA7F2 /* ViewController.swift in Sources */,
 				A310EF961BB6502F00ACA7F2 /* AppDelegate.swift in Sources */,
 			);
